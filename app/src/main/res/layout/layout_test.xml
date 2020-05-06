@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.example.androidtemplate.helper.Row
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rowTitle="This is a title"
+        app:rowValue="And this is a value"
+        />
+    <com.example.androidtemplate.helper.Row
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rowTitle="This is a title 2"
+        app:rowValue="And this is a value 2"/>
+    <com.example.androidtemplate.helper.Row
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rowTitle="This is a title 3"
+        app:rowValue="And this is a value 4"/>
+    <com.example.androidtemplate.helper.Row
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rowTitle="This is a title 5"
+        app:rowValue="And this is a value 5" />
+    <com.example.androidtemplate.helper.Row
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rowTitle="This is a title 6"
+        app:rowValue="And this is a value 6"/>
+    <com.example.androidtemplate.helper.Row
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rowTitle="This is a title 7"
+        app:rowValue="And this is a value 7" />
+</LinearLayout>
