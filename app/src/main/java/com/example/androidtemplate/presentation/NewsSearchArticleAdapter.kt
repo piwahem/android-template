@@ -53,10 +53,8 @@ class NewsSearchArticleAdapter : PagedListAdapter<ArticleDomainEntity, RecyclerV
     }
 
     fun setLoading(state: LoadingMoreState) {
-        Handler().post {
-            this.loadingMoreState = state
-            notifyDataSetChanged()
-        }
+        this.loadingMoreState = state
+        notifyDataSetChanged()
     }
 
     companion object {

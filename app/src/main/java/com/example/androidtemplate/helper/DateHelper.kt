@@ -20,25 +20,25 @@ object DateHelper {
     const val HOUR_MILLIS = 60 * MINUTE_MILLIS
     const val DAY_MILLIS = 24 * HOUR_MILLIS
 
-    const val TIME_FORMAT_SECOND = "hh:mm:ss"
-    var TIME_FORMAT: String = ""
-        get() = if (is24hFormat()) "HH:mm" else "hh:mm aa"
-
-    var TIME_FORMAT_BLINK: String = ""
-        get() = if (is24hFormat()) "HH mm" else "hh mm aa"
-
-    var TIME_FORMAT_2: String = ""
-        get() = if (is24hFormat()) "HH:mm" else "KK:mm"
+//    const val TIME_FORMAT_SECOND = "hh:mm:ss"
+//    var TIME_FORMAT: String = ""
+//        get() = if (is24hFormat()) "HH:mm" else "hh:mm aa"
+//
+//    var TIME_FORMAT_BLINK: String = ""
+//        get() = if (is24hFormat()) "HH mm" else "hh mm aa"
+//
+//    var TIME_FORMAT_2: String = ""
+//        get() = if (is24hFormat()) "HH:mm" else "KK:mm"
     const val WEEK_FULL_DATE_FORMAT = "EEE, dd MMM yyyy"
     const val SHORT_DATE_FORMAT = "dd MMM"
     const val SHORT_YEAR_DATE_FORMAT = "dd MMM yy"
     const val NORMAL_DATE_FORMAT = "dd MMM yyyy"
     const val WEEK_DATE_FORMAT = "EEE, dd MMM"
     const val VOUCHER_DATE_FORMAT = "yyyy-MM-dd"
-    var NORMAL_DATE_TIME_FORMAT: String = ""
-        get() = "$NORMAL_DATE_FORMAT $TIME_FORMAT"
-    var WEEK_DATE_TIME_FORMAT: String = ""
-        get() = "$WEEK_FULL_DATE_FORMAT $TIME_FORMAT"
+//    var NORMAL_DATE_TIME_FORMAT: String = ""
+//        get() = "$NORMAL_DATE_FORMAT $TIME_FORMAT"
+//    var WEEK_DATE_TIME_FORMAT: String = ""
+//        get() = "$WEEK_FULL_DATE_FORMAT $TIME_FORMAT"
 
     fun day(): Int {
         return getInstance().get(DAY_OF_MONTH)
